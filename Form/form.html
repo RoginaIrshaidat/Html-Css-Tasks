@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> The Form </title>
+    </head>
+    <body>
+        <div>
+            <h1> University Form</h1>
+            <span style="margin: 50px; padding: 50px;color: aquamarine;">
+                <a href="https://www.fu-berlin.de/en/index.html">
+                    <img src="berlin.jpg" alt="University Logo"></img>
+                </a>
+            </span>
+        </div>
+        <form>
+            <fieldset>
+                <legend><h4> Student Registration Form</h4> </legend>
+                
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="FName"> First Name :</label>
+                    <input type="text" id="FName" name="FName">
+                    &emsp; 
+                    <label for="MName"> Middle Name :</label>
+                    <input type="text" id="MName" name="MName">
+                    &emsp; 
+                    <label for="LName"> Last Name :</label>
+                    <input type="text" id="LName" name="LName">
+                    <br>
+                    <label for="BDay"> Birthday :</label>
+                    <input type="date" id="BDay" name="BDay">
+                    <br>
+                    
+                    <label for="Email">Email :</label>
+                    <input type="email" id="Email" name="Email">
+                    <br>
+                    <label for="Password">Password :</label>
+                    <input type="password" id="Password" name="Password">
+                    <br>
+                    <label for="CPassword">Confirm Password :</label>
+                    <input type="password" id="CPassword" name="CPassword">
+                    <br>
+            
+                    <label for="Gender"> Gender :</label><br>
+                    <input type="radio" id="Female" name="Female">
+                    <label for="Female"> Female</label><br>
+                    <input type="radio" id="Male" name="Male">
+                    <label for="Male"> Male</label><br>
+                    <label for="Address"> Address</label><br>
+                    <textarea name="Address"> Address</textarea><br>
+                    <label for="Hobbies "> Your Hoppies :</label><br>
+                    <input type="checkbox" id="Read" name="Read" value="Reading">
+                    <label for="Reading"> Reading</label><br>
+                    <input type="checkbox" id="Kart" name="Kart" value="Karting">
+                    <label for="Karting"> Karting</label><br>
+                    <input type="checkbox" id="Art" name="Art" value="Art">
+                    <label for="Arting"> Arting</label><br>
+                    <input type="checkbox" id="Swim" name="Swim" value="Swim">
+                    <label for="Swiming"> swiming</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Colleage:</legend>
+                    <label for="Colleage"> Colleage :</label>
+                    <select id="Slc1" name="Slc1">
+                        <option> Select your Colleage</option>
+                        <option value="IT">IT</option>
+                        <option value="Medicine">Medicine</option>
+                        <option value="Law">Law</option>
+                        <option value="Science">Science</option>
+                        <option value="Engineering">Engineering</option>
+                    </select>
+                    <br>
+                    
+                </fieldset>
+            
+                <input type="submit" value="Submit">
+            </fieldset>    
+        </form>
+        <h3> Universities In Germany</h3>
+        <ol>
+            <li>Top German Universities To Study Medicine
+                <ul>
+                    <li> Heidelberg University</li>
+                    <li> Rwth Aachen University</li>
+                    <li> Lübeck University</li>
+                </ul>
+            </li>
+            <li>Top German Universities To Study Information Technology (IT)
+                <ul type="disc">
+                    <li>Technical University of Munich</li>
+                    <li>RWTH Aachen University</li>
+                    <li>Karlsruhe Institute of Technology</li>
+
+                </ul>
+            </li>
+        </ol>
+    </body>
+</html>
