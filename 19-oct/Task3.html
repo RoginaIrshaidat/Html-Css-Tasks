@@ -24,17 +24,17 @@
                 <td colspan="3" class="Tabledatacolspan"> For Credit</td>
             </tr>
             <tr class="tableCellblue" id="rowBackground">
-                <td>6.813</td>
+                <td class="CourseNumBold">6.813</td>
                 <td>User Interface Design</td>
                 <td>Spring 2014</td>
             </tr>
             <tr>
-                <td class="tableCellblue">6.034</td>
+                <td class="tableCellblue"> <span  class="CourseNumBold">6.034</span></td>
                 <td>Artifical Intelligence</td>
                 <td>Fall 2013</td>
             </tr>
             <tr id="rowBackground">
-                <td class="tableCellblue" >6.006</td>
+                <td class="tableCellblue"  ><span class="CourseNumBold">6.006 </span></td>
                 <td>Introduction to Algorithms</td>
                 <td>Fall 2013</td>
             </tr>
@@ -60,17 +60,27 @@
         <h3 class="headingBackground"> Submit Pet Information</h3>
         <p> Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
         
-        <label for="name"> Name :</label>
-        <input type="text" name="name">
-        <br>
-        <label for="phylum"> Phylum :</label>
-        <input type="text" name="phylum">
-        <br>
-        <label for="gender"> Gender :</label>
-        <input type="text" name="gender">
-        <br>
-        <button id="submitButton"> Submit</button>
-    
+        <form action="" method="get">
+            <div class="formStyle">
+                <label for="name"> Name :</label>
+                <input type="text" name="name">
+                <br>
+            </div>   
+            <div class="formStyle">
+                <label for="phylum"> Phylum :</label>
+                <input type="text" name="phylum">
+                <br>
+            </div>   
+            <div class="formStyle"> 
+                <label for="gender"> Gender :</label>
+                <input type="text" name="gender">
+                <br>
+            </div>
+            <div class="formStyle">
+                <button id="submitButton"> Submit</button>
+            </div>
+        </form>
+        
     
     </body>
 </html>

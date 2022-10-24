@@ -32,6 +32,14 @@
     color:#68abee ;
 
 }
+.CourseNumBold{
+    font-weight: bold;
+
+}
+.formStyle{
+    padding:  5px;
+    margin: 5px;
+}
 table, td, th{
     border: 1px solid black;
     border-collapse: collapse;
