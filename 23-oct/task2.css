@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(240, 247, 180);
+}
+.LoremParagraph{
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+}
+.DonecParagraph{
+    border: 1px dashed red ;
+    background-color: white;
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+}
+#ThiredParagraph{
+    border: 1px dashed red;
+}
+.ipsumBgColor{
+    background-color:bisque;
+}
+.quisBgColor{
+    background-color: yellow;
+}
+@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+    
+    #header{
+        font-size: xx-large;
+    }
+    .LoremParagraph{
+        border: 2px solid black;
+        margin: 10px;
+        padding: 10px;
+        width: 900px;
+        height: 600px;
+        font-size: xx-large;
+    }
+    .DonecParagraph{
+        border: 2px dashed red ;
+        margin: 10px;
+        padding: 10px;
+        width: 900px;
+        height: 600px;
+        font-size: xx-large;
+
+    }
+    #ThiredParagraph{
+        border: 2px dashed red;
+    }
+}

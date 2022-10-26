@@ -2,13 +2,37 @@
 <html>
     <head>
         <title></title>
+        <style>
+                #firstDiv{
+                    color:rgb(247, 167, 17);
+                    font-size: 90px;
+                }
+                #headingOne{
+                    float: right; 
+                    font-size: 100px;
+                }
+                #secondParagraph{
+                    float: right;
+                    clear: right; 
+                    font-family:'Gill Sans';
+                    padding: 0px;
+                    font-size: 70px;
+                }
+                #firstParagraph{
+                    font-size:70px ;
+                }
+            @media only screen and (min-device-width:0px) and (max-device-width:480px) {
+
+                
+            }
+        </style>
     </head>
     <body>
-        <div style="color:rgb(247, 167, 17) ;">
+        <div id="firstDiv">
             Styling text
         </div>
-        <h2 style="float: right; "> Heading Num. 2</h2>
-        <p> My first paragraph</p>
-        <p style="float: right;clear: right; font-family:'Gill Sans';padding: 0px;"> My second paragraph</p>
+        <h2 id="headingOne"> Heading Num. 2</h2>
+        <p id="firstParagraph"> My first paragraph</p>
+        <p id="secondParagraph"> My second paragraph</p>
     </body>
 </html>

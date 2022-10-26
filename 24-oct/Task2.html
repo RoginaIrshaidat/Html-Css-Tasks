@@ -4,9 +4,8 @@
         <title> Grid Task</title>
         <style>
             #mainDiv{
-                width: 100%;
-                height: 700px;
-                border: 5px solid rgb(238, 238, 44);
+                width: 100%;                
+                border: 2px solid black;
                 display: grid;  
                 grid-template-columns: auto auto auto auto;
                 grid-template-rows: auto auto auto;  
@@ -14,8 +13,24 @@
                 text-align: center;    
                 color: white;
                 font-weight: bold;
-                font-size:150px ;
+                font-size:100px ;
                
+            }
+            @media only screen and (min-device-width:0px) and (max-device-width:480px) {
+                #mainDiv{
+                    grid-template-columns: auto ;
+                    height: 100%;
+                }
+            }
+                @media only screen and (min-device-width:481px) and (max-device-width:768px) {
+                #mainDiv{
+                    grid-template-columns: auto  auto;
+                    height: 100%;
+                    padding-right: 3px;
+                }
+              
+              
+                
             }
         </style>
     </head>
